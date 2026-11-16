@@ -14,7 +14,7 @@ export default function LoginPage() {
   const [remember, setRemember] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) { 
     e.preventDefault();
     if (!email || !password) {
       toast.error("Email dan password wajib diisi");
@@ -105,7 +105,7 @@ export default function LoginPage() {
                 Ingat aku
               </label>
               <a href="#" className="text-slate-500 hover:text-brand-500">
-                Lupa Password?
+                Lupa Password? 
               </a>
             </div>
 

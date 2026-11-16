@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="id">
       <body className="antialiased bg-slate-100 text-slate-800">
         <ToastProvider />
-        {children}
+        {children} 
       </body>
     </html>
   );

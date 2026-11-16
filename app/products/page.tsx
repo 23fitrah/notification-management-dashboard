@@ -13,7 +13,7 @@ import {
   createProduct,
   updateProduct,
   deleteProduct,
-} from "@/services/productService";
+} from "@/services/productService"; 
 import { Product, ProductPayload } from "@/types";
 
 export default function ProductsPage() {
